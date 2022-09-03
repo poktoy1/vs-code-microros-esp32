@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+**ros2**/**
+**micro**/**

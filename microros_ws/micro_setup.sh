@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 mkdir -p src
 git clone -b $ROS_DISTRO https://github.com/micro-ROS/micro_ros_setup.git src/micro_ros_setup
 sudo apt update && rosdep update
