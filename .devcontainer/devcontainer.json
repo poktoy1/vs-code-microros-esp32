@@ -11,12 +11,13 @@
         }
     },
     "runArgs": [
-        // "--network=host",
+        "--network=host",
+        "--privileged",
 		// "--gpus=all",
 		"--cap-add=SYS_PTRACE",
 		"--security-opt=seccomp:unconfined",
 		"--security-opt=apparmor:unconfined",
-		// "--volume=/tmp/.X11-unix:/tmp/.X11-unix:rw",
+		"--volume=/tmp/.X11-unix:/tmp/.X11-unix:rw",
         "--volume=/dev:/dev"
 		// "--device=/dev/video0:/dev/video0:rw"
     ],

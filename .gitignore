@@ -31,5 +31,14 @@
 *.out
 *.app
 
-**ros2**/**
-**micro**/**
+**ros2**/build
+**ros2**/install
+**ros2**/firmware
+**ros2**/log
+**ros2**/src
+
+**micro**/build
+**micro**/install
+**micro**/firmware
+**micro**/log
+**micro**/src
